@@ -17,7 +17,7 @@ if (cold) {
     console.log("Short sleeves are fine.");
 }
 
-const temperature = -2;
+let temperature = -2;
 
 if (temperature < 0) {
     console.log("Make sure you pick out a scarf!");
@@ -36,7 +36,7 @@ if (isCitizen && age > 18) {
     console.log("You are eligible to vote.");
 }
 
-if temperature < -40 || temperature > 40 {
+if (temperature < -40 || temperature > 40) {
     console.log("aybe going outside isn't such a great idea");
 }
 
